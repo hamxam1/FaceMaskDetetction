@@ -25,9 +25,9 @@ mymodel=load_model('mymodel.h5')
 cap=cv2.VideoCapture(0)
 face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-from_email_addr = 'hamxam1@gmail.com'
-from_email_password = '03234603951'
-to_email_addr = '70091892@student.uol.edu.pk'
+from_email_addr = 'USERNAME'
+from_email_password = "Password"
+to_email_addr = 'TO_MAIL'
 
 img_counter = 0
 
